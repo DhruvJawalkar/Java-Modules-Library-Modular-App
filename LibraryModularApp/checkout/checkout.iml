@@ -7,8 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="notificationservice" />
     <orderEntry type="module" module-name="inventory" />
-    <orderEntry type="module" module-name="bookapi" />
+    <orderEntry type="module" module-name="notificationservice" />
   </component>
 </module>

@@ -1,3 +1,4 @@
+/*
 module checkout {
     requires inventory;
     requires notificationservice;
@@ -5,4 +6,13 @@ module checkout {
     exports com.checkout;
 
     uses com.notificationservice.NotificationService;
+}
+ */
+
+module checkout{
+    requires inventory;
+    requires notificationservice;
+    uses com.notificationservice.NotificationService;
+
+    exports com.checkout;
 }
